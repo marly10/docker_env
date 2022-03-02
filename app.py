@@ -29,7 +29,7 @@ def respond():
         response["ERROR"] = "no name found, please send a name."
     # Check if the user entered a number not a name
     elif str(name).isdigit():
-        response["ERROR"] = "name can't be numeric."
+        response["ERROR"] = "name can't be numjjeric."
     # Now the user entered a valid name
     else:
         response["MESSAGE"] = f"Welcome {name} to our awesome platform!!"
